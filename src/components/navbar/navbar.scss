@@ -20,14 +20,7 @@
     }
   }
 }
-@media (max-width: 768px) {
-  .desktopNavbar {
-    display: none;
-  }
-  .mobile-nav{
-    display: block;
-  }
-}
+
 
 .mobile-nav {
   position: relative;
@@ -73,4 +66,11 @@
     }
   }
 }
- 
+@media (max-width: 768px) {
+    .desktopNavbar {
+      display: none;
+    }
+    .mobile-nav{
+      display: block;
+    }
+  }
