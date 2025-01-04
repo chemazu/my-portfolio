@@ -4,12 +4,11 @@ import close from "../../assets/img/close.svg";
 
 import "./navbar.scss";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link"; // Import HashLink
-
+import { HashLink } from "react-router-hash-link"; 
 export default function Navbar() {
   const [active, setActive] = useState(false);
   const handleLinkClick = () => {
-    setActive(false); // Set active to false when a link is clicked
+    setActive(false);  
   };
   return (
     <div className="mobile-nav">
